@@ -12,11 +12,11 @@ body{
     padding: inherit; 
     font-weight: bold; 
     font-size: 29px;
-    background-color: #0BADA6;
+    background-color: gray;
     font-family: Avenir, 'Arial', Calibri, serif;
 }
 .navbar{
-    background-color: #0BADA6; 
+    background-color: grey; 
     color: white!important;
     font-size: 15px; 
 }
@@ -46,7 +46,7 @@ img{
     height:100% !important;
 }
 .active, .panel:hover{
-    border-color:#0BADA6;
+    border-color:grey;
     border-style: solid; 
     
 }
@@ -57,8 +57,8 @@ img{
 
 /* Title Class  */
 .title{
-    color: #0BADA6;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;  
+    font-family: Avenir, 'Arial', Calibri, serif;
     font-weight: bolder; 
     padding-top: 25px; 
 }
@@ -87,7 +87,7 @@ footer{
 background-color: #666666; 
 border-top-style: solid; 
 border-top-width: 5px; 
-border-top-color: #0BADA6;
+border-top-color: black;
 color: white; 
 min-height: 55px; 
 font-family: Arial, Helvetica, sans-serif;
@@ -102,7 +102,7 @@ padding-top: 15px;
 /* Media Queries */
 @media(max-width: 992px){
 .navbar-expand-lg{
-background-color: #0BADA6 !important;
+background-color: grey !important;
 }
 .navbar{
     max-height: none; 
